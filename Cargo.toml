@@ -1,0 +1,16 @@
+[package]
+name = "whispersub"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mike Dallas <mcdallas@protonmail.com>"]
+description = "format whisper transcripts to .srt"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/mcdallas/whispersub"
+repository = "https://github.com/mcdallas/whispersub"
+keywords = ["OpenAI", "whisper", "subtitles", "transcript", "srt"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = "2.33.3"
+regex = "1.9.1"
